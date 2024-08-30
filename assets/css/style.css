@@ -111,6 +111,9 @@ li {
         }
     }
 }
+.header .dot {
+    cursor: pointer;
+}
 .header ul .dot-1 {
     margin: 7px 0 7px auto;
     width: 37px;
@@ -470,6 +473,10 @@ li {
 }
 /* Footer CSS */
 .footer-section {
+    z-index: 1;
+    img {
+        z-index: -1;
+    }
     background-color: #1B1B1B;
     padding: 60px 0;
     .footer-logo {
