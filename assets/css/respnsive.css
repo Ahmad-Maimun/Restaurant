@@ -265,4 +265,24 @@
     body {
         width: 100%;
     }
+    .banner-section {
+        .banner {
+            h1 {
+                font-size: 95px;
+            }
+            span {
+                width: 280px;
+                margin: 0 auto 20px;
+            }
+            p {
+                margin: 0 3%;
+            }
+            .line {
+                margin: 0 20%;
+            }
+        }
+    }
 }
+/* @media (max-width: 360px) {
+    
+} */
